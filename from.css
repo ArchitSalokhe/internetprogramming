@@ -1,0 +1,83 @@
+{box-sizing: border-box}
+
+body{
+    background-color:rgb(190, 229, 235) ;
+}
+.first {
+    background-color: #f1f1f1;
+    margin: 10px 10px 10px 10px;
+}
+.container {
+    padding:  16px;
+    background-position: 80%
+}
+
+fieldset{
+  /*  padding: 0 10% 0 20% ;*/
+    background-color:white;
+    margin:0 40px 0 40px;
+}
+.second{
+    padding-left:30 %;
+    background-color: #f1f1f1;
+}
+input{
+    width: 50%;
+    padding: 10px;
+    margin: 3px 0 15px  0; 
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    background-color: rgb(241, 235, 235);
+    outline: none;
+}
+
+input[type=text]{
+    width: 15%;
+    padding: 15px;
+    margin: 5px 0 23px  0;
+}
+
+input[type=date] {
+width: 18%;
+background-color: rgb(241, 235, 235);
+outline: none;
+}
+
+input[type=radio] {
+    align-items: center;
+    width: 5%;
+    padding:1px;
+    outline: none;
+}
+    
+
+
+hr {
+    border: 1px solid 797979;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%
+
+}
+
+button:hover {
+    opacity: 1;
+}
+
+a{
+    color: dodgerblue;
+}
+
+Sign in {
+    background-color: #f1f1f1;
+    text-align: center;
+}

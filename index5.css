@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+}
+h1{
+    font-size: 400%;
+}
+.cont {
+    margin: 6%;
+    font-size: 200%;
+}
+.cont > input {
+    margin: 15px;
+}
+.cont > button {
+    font-size: 100%;
+}
