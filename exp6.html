@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+class Person{
+    constructor(name,age){
+        this.name = name;
+        this.age = age;
+    }
+    display(){
+        document.write("NAME:-"+this.name);
+        document.write("<br>")
+        document.write("AGE:-"+this.age)
+        document.write("<br>")
+    }
+}
+
+class Student extends Person{
+    constructor(name,age,course,marks){
+        super(name,age);
+        this.course = course;
+        this.marks = marks;
+    }
+    display2(){
+        this.display();
+        document.write("COURSE:-"+this.course);
+        document.write("<br>")
+        document.write("MARKS:-"+this.marks);
+        document.write("<br>")
+    }
+}
+
+let student = new Student("Sumit Dhomse",20,"IT",75)
+student.display2()
+document.write("-----------------------------------------")
+document.write("<br>")
+let student2 = new Student("Lucifer",18,"IT",45)
+student2.display2()
+</script>
